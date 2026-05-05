@@ -298,7 +298,10 @@ export default function PhotographyPortfolio() {
                 <select style={styles.input} value={formData.event} onChange={e => setFormData({ ...formData, event: e.target.value })} required>
                   <option value="">Select event…</option>
                   <option>Wedding</option>
-                  <option>Portrait Session</option>
+                    <option>Portrait Session</option>
+                    <option>New Born</option>
+                    <option>Maternity</option>
+                    <option>House Warming</option>
                   <option>Corporate / Headshots</option>
                   <option>Drone / Aerial</option>
                   <option>Family Session</option>
